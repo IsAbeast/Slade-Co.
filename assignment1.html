@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple HTML5 web page demonstrating accessibility and SEO best practices.">
+  <meta name="keywords" content="HTML5, accessibility, SEO, semantic web">
+  <meta name="author" content="Your Name">
+  <title>HTML5 Accessibility & SEO Basics</title>
+</head>
+<body>
+  <!-- Header landmark -->
+  <header>
+    <h1>Welcome to My Accessible & SEO-Friendly Web Page</h1>
+    <!-- Navigation landmark -->
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about" aria-current="page">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main landmark -->
+  <main id="main-content">
+    <!-- About Section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This page was built using modern <strong>HTML5 semantic elements</strong>, designed to be both accessible to assistive technologies and optimized for search engines.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <article aria-labelledby="webdev-heading">
+        <h3 id="webdev-heading">Web Development</h3>
+        <p>We build clean, semantic, and accessible websites that are SEO-friendly and user-first.</p>
+      </article>
+      <article aria-labelledby="consulting-heading">
+        <h3 id="consulting-heading">Consulting</h3>
+        <p>We provide expert advice on digital accessibility and search engine optimization strategies.</p>
+      </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <address>
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+      </address>
+    </section>
+  </main>
+
+  <!-- Footer landmark -->
+  <footer>
+    <p>&copy; 2025 Accessible Web Co. | Built with ❤️ and semantic HTML5.</p>
+  </footer>
+</body>
+</html>

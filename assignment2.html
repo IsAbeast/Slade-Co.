@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HTML5 page with lists, tables, media, and a validated form.">
+  <title>Enhanced HTML5 Content & Forms</title>
+</head>
+<body>
+  <header>
+    <h1>Enhanced HTML5 Content & Mastering Forms</h1>
+    <p>This page demonstrates HTML5 lists, tables, media, and a complete validated form.</p>
+  </header>
+
+  <main>
+    <!-- Section: Lists -->
+    <section>
+      <h2>Popular Programming Languages</h2>
+      <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Go</li>
+      </ul>
+
+      <h3>Steps to Build a Simple Web Page</h3>
+      <ol>
+        <li>Create the HTML structure.</li>
+        <li>Add semantic content.</li>
+        <li>Insert media elements.</li>
+        <li>Build and validate forms.</li>
+        <li>Test accessibility and usability.</li>
+      </ol>
+    </section>
+
+    <!-- Section: Table -->
+    <section>
+      <h2>Course Schedule</h2>
+      <table border="1" aria-label="Course Schedule">
+        <caption>Weekly Course Schedule</caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Course</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Web Development</td>
+            <td>9:00 AM - 11:00 AM</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Database Systems</td>
+            <td>2:00 PM - 4:00 PM</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Networking Basics</td>
+            <td>10:00 AM - 12:00 PM</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Section: Media -->
+    <section>
+      <h2>Learning Resources</h2>
+      <figure>
+        <img src="https://via.placeholder.com/300" alt="Placeholder illustration of learning" width="300">
+        <figcaption>Sample Image: Enhance learning with visuals.</figcaption>
+      </figure>
+
+      <h3>Motivational Audio</h3>
+      <audio controls>
+        <source src="sample.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3>Introduction Video</h3>
+      <video controls width="320">
+        <source src="sample.mp4" type="video/mp4">
+        Your browser does not support the video element.
+      </video>
+    </section>
+
+    <!-- Section: Form -->
+    <section>
+      <h2>Registration Form</h2>
+      <form action="#" method="post" autocomplete="on">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" placeholder="John Doe" required minlength="3"><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="user@example.com" required><br><br>
+
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="123-456-7890" 
+                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Account Details</legend>
+
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required minlength="5"><br><br>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+          <label for="confirm">Confirm Password:</label>
+          <input type="password" id="confirm" name="confirm" required minlength="6"><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+
+          <label for="country">Country:</label>
+          <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="kenya">Kenya</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+          </select><br><br>
+
+          <p>Subscribe to Newsletter:</p>
+          <label><input type="radio" name="subscribe" value="yes" required> Yes</label>
+          <label><input type="radio" name="subscribe" value="no"> No</label><br><br>
+
+          <label>
+            <input type="checkbox" name="terms" required> I agree to the terms and conditions
+          </label><br><br>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HTML5 Learning Project</p>
+  </footer>
+</body>
+</html>
